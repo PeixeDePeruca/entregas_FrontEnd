@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo Festival 2026 - Inscrições</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #121212;
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px;
+            background: linear-gradient(45deg, #7c1717, #91751a);
+            border-radius: 15px;
+        }
+
+
+        section {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            border-bottom: 2px solid #d62d2d;
+            padding-bottom: 10px;
+        }
+
+        /*estilo da Tabela */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #333;
+        }
+
+        th {
+            background-color: #333;
+            color: #d62d2d;
+        }
+
+        /* Estilo do Formulário */
+        .campo {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .radio-group,
+        .check-group {
+            margin: 10px 0;
+        }
+
+        button {
+            background: #d62d2d;
+            color: #121212;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            width: 100%;
+        }
+
+        button:hover {
+            background: #7c2222;
+        }
+
+        /*multimidia */
+        .media-container {
+            text-align: center;
+        }
+
+        video,
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>THE BIG FOUR - LAST TOUR</h1>
+        <h3>A maior experiência sonora da DÉCADA!.</h3>
+    </header>
+
+    <section class="media-container">
+        <h1>UMA REUNIÃO LENDÁRIA!</h1>
+        <img src="https://okmusicplay.com/wp-content/uploads/2023/01/Big-Four-Thrash-Metal.jpeg"
+            alt="Público em show musical">
+
+        <!--ARRUMAR ISSO!!-->
+        <h2>Teaser do Evento:</h2>
+
+        <section class="media-container">
+            <p>Teaser oficial</p>
+
+            <iframe width="695" height="390" src="/Projetos_Web/Tarefas/SiteMusica/video/Metallica Am I Evil (Live w_ The Big 4) [The Big 4 Live in Sofia, Bulgaria] - Metallica (480p, h264, youtube).mp4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </section>
+
+
+
+        <!--CÓDIGO ACIMA----n encontrei um video pra colocar alí relacionado ao assunto, e videos do ytb n funcionam por conta da maneira q estou usando essa linha, 
+        e achei melhor n colocar nada local já q o link da iumagem é feito atráves de uma imagem q está hsoteada em um site qualquer então...
+        enquanto esse site estiver de pé essa iamgem roubada continuará funcionando nesse site fake-->
+    </section>
+
+
+
+    <section>
+        <h2>Line-up & Horários</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Horário</th>
+                    <th>Palco Principal</th>
+                    <th>Palco Indie</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>18:00</td>
+                    <td>Megadeth</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>19:30</td>
+                    <td>Metallica</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>20:30</td>
+                    <td>Anthrax</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>21h30</td>
+                    <td>Megadeth</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>22h00</td>
+                    <td>Slayer</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Garanta seu Ingresso!</h2>
+        <form action="#" method="post">
+            <div class="campo">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome aqui" required>
+            </div>
+
+            <div class="campo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="email@exemplo.com" required>
+            </div>
+
+            <div class="campo">
+                <label for="tel">Telefone:</label>
+                <input type="tel" id="tel" name="tel" placeholder="(00) 00000-0000" required>
+            </div>
+
+            <div class="radio-group">
+                <label>Tipo de Ingresso:</label>
+                <input type="radio" id="pista" name="ingresso" value="pista" checked>
+                <label for="pista" style="display:inline;">Pista</label><br>
+
+                <input type="radio" id="vip" name="ingresso" value="vip">
+                <label for="vip" style="display:inline;">VIP</label><br>
+
+                <input type="radio" id="camarote" name="ingresso" value="camarote">
+                <label for="camarote" style="display:inline;">Camarote</label>
+            </div>
+
+            <div class="check-group">
+                <input type="checkbox" id="update" name="update">
+                <label for="update" style="display:inline;">Receber atualizações por e-mail</label>
+            </div>
+
+            <button type="submit">FINALIZAR INSCRIÇÃO!!</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
