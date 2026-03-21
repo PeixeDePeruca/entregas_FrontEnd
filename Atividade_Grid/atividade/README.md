@@ -1,13 +1,13 @@
-Atividade de Grid com animação uhul
+                Atividade de Grid
 
-Esse projeto usando o html,css e o Grid usando:
+Esse projeto usando o HTML, CSS e o Grid usando:
 
-- Cabeçalho
+- Cabeçalho(header)
 - Menu lateral
 - Área de conteúdo
-- Rodapé
+- Rodapé(Footer)
 
-O que foi feito neste projeto: 
+Coisas praticadas:
 
 - Layout feito com Grid
 - Menu com efeito quando passa o mouse.
@@ -16,4 +16,4 @@ O que foi feito neste projeto:
   - uma no título (efeito de brilho)
   - outra no conteúdo (aparecendo na tela)
 
-Criador - Gabriel Hardt Klipe
+PeixeDePeruca
