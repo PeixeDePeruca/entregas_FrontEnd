@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Orbitron', sans-serif;
     color: #6fe04f;
-    background-color: #000; /* Fundo preto para as áreas vazias */
+    background-color: #000; /*Fundo preto para as áreas vazias(esquerda)*/
 }
 
 .content {
@@ -10,14 +10,14 @@ body {
     padding: 20px;
     animation: aparecer 1.5s ease-in-out;
 
-    /* Configurações da Imagem */
+    /*cconfigurações da Imagem*/
     background-image: url('https://images7.alphacoders.com/849/thumb-1920-849213.png');
     background-repeat: no-repeat;
     
-    /* 'contain' faz a imagem inteira aparecer sem cortes */
+    /*contain q faz a aparecer inteira sem cortes */
     background-size: contain; 
     
-    /* Alinha a imagem à direita e no centro vertical */
+    /*Alinha a imagem à direita e no centro vertical*/
     background-position: right center; 
 }
 
@@ -40,7 +40,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 32px;
-    /*animation: brilho 2s infinite alternate;*/
+    animation: brilho 2s infinite alternate;
 }
 
 

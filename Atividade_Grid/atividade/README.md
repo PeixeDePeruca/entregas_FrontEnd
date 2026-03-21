@@ -1,6 +1,6 @@
-                Atividade de Grid
+                      Atividade de Grid
 
-Esse projeto usando o HTML, CSS e o Grid usando:
+Esse projeto foi feito usando o HTML, CSS e o Grid usando:
 
 - Cabeçalho(header)
 - Menu lateral
@@ -13,7 +13,7 @@ Coisas praticadas:
 - Menu com efeito quando passa o mouse.
 - Ícones nos itens do menu
 - 2 animações:
-  - uma no título (efeito de brilho)
-  - outra no conteúdo (aparecendo na tela)
+  - brilho no título 
+  - movimento de slide-in
 
 PeixeDePeruca
