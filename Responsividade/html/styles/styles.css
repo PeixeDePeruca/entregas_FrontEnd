@@ -123,10 +123,12 @@ h1 {
     font-weight: bold;
 }
 
+
 /*responsividade para telas maiores*/
 @media (min-width: 768px) {
     .hero { grid-template-columns: 1fr 1fr; }
 }
+
 
 @media (min-width: 992px) {
     .hamburger-label { display: none; }
